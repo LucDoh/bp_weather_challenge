@@ -23,7 +23,7 @@ Final timeseries: *data/final/daily_temps_interpolated.csv*
 1) Interpolate missing daily temperatures of stations, using the neighboring days. A few days have just 1 station up, but outages are always separated by a few days.
 <p align="center">
 
-<img src="plots/operating_stations_after_interpolation.png" width="200" title="hover text">
+<img src="plots/operating_stations_after_interpolation.png" width="350" title="hover text">
 </p>
 
 2) For every city, find the 3 nearest weather stations and estimate local (mean, min, and max) temperatures every day using "inverse distance weighting", so closer stations have a much larger impact.
@@ -35,13 +35,13 @@ T_avg = ((pop_1)(temp_1) + ... + (pop_n)(temp_n))/(pop_1 + pop_2 + ... pop_n)
 4) Now we can plot the seasonal and monthly average, max, min. I guess this is the average temperature felt by someone in the US on a given day (and the average minimum temperature felt by someone, etc).
 <p align="center">
 
-<img src="plots/population-weighted_mean_temperatures_US_2015-2021.png" width="200" title="hover text">
+<img src="plots/population-weighted_mean_temperatures_US_2015-2021.png" width="400" title="hover text">
 </p>
 
 as well as the average, min, max monthly:
 <p align="center">
 
-<img src="plots/monthly_temperatures.png" width="200" title="hover text">
+<img src="plots/monthly_temperatures.png" width="300" title="hover text">
 </p>
 
 
