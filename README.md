@@ -5,8 +5,8 @@ Starting data:
 - Temperature Data.csv
 - Population Data.csv
 <p align="center">
-<img src="plots/City_positions.png" width="200" title="Cities">
-<img src="plots/Station_positions.png" width="200" title="Stations">
+<img src="plots/City_positions.png" width="300" title="Cities">
+<img src="plots/Station_positions.png" width="300" title="Stations">
 </p>
 <p align="center">
 Cities vs Stations
