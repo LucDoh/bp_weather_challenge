@@ -41,9 +41,14 @@ T_avg = ((pop_1)(temp_1) + ... + (pop_n)(temp_n))/(pop_1 + pop_2 + ... pop_n)
 as well as the average, min, max monthly:
 <p align="center">
 
-<img src="plots/monthly_temperatures.png" width="300" title="hover text">
+<img src="plots/monthly_temperatures.png" width="300" title="monthly temperatures">
 </p>
 
+
+GIF showing the daily estimated temperatures in 2020 for the continental US cities:
+<img src="plots/2020_tempmap.gif" title="2020 temperatures">
+
+Note: This last GIF was made a month after turning in my submission, using Folium, see code in [easy_maps](https://github.com/LucDoh/easy_maps).
 
 ## Code
 - infer_daily_US_temperatures.ipynb: generate daily timeseries
